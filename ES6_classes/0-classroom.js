@@ -1,8 +1,5 @@
-export default function getResponseFromAPI() {
-  const myPromise = new Promise(
-    (resolve) => {
-      resolve();
-    },
-  );
-  return myPromise;
+export default class ClassRoom {
+  constructor(maxStudentSize) {
+    this._maxStudentsSize = maxStudentSize;
+  }
 }
