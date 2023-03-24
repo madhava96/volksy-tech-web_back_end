@@ -1,5 +1,5 @@
 'use strict';
-function getPaymentTokenFromAPI(sucess) {
-	if (sucess) return promise.resolve({ data: 'sucessful response from the API'});
+function getPaymentTokenFromAPI(success) {
+	if (success) return Promise.resolve({ data: 'Successful response from the API'});
 }
 module.exports = getPaymentTokenFromAPI;
